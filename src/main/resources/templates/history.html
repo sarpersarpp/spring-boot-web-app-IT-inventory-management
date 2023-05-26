@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Inventory Stock List</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Inventory Stock List</h1>
+    <div>
+        <table class="box">
+            <tr>
+            	<th></th>
+                <th>Serial Number</th>
+                <th>Item Brand</th>               
+                <th>Item Type</th>
+                <th>Item Quantity</th>
+                <th>Date</th>
+                <th>Item Location</th>
+                <th>User's Name</th>
+            </tr>
+            
+            <tr th:each="i: ${items}">
+            	<td>
+                    <a th:href="'/item/delete/' + ${i.id}">
+                        <img src="/img/delete.png" width="20" class="delete-image">
+                    </a>
+                </td>
+                <td th:text="${i.id}"></td>
+                <td th:text="${i.itemBrand}"></td>
+                <td th:text="${i.itemType}"></td>
+                <td th:text="${i.itemQuantity}"></td>
+                <td th:text="${i.itemDate}"></td>
+                <td th:text="${i.itemLocation}"></td>
+                <td th:text="${i.itemPerson}"></td>
+            </tr>
+        </table>
+  
+        <div class="button-3">
+            <a href="/main-en" class="button-3" role="button">Go back to item registration</a>
+        </div>
+        
+    </div>
+</body>
+</html>

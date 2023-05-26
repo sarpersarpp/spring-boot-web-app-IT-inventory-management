@@ -1,0 +1,10 @@
+insert into item(id,itembrand,itemtype,itemquantity,itemdate,itemlocation,itemperson)  values(12345632,'Deneme','Computer',32,parsedatetime('16-03-2023','dd-MM-yyyy'),'Besiktas','Ahmet Aksoz');
+insert into item(id,itembrand,itemtype,itemquantity,itemdate,itemlocation,itemperson)  values(43629423,'Deneme','Mouse',50,parsedatetime('11-04-2023','dd-MM-yyyy'),'Beylikduzu','Faruk Itmez');
+insert into item(id,itembrand,itemtype,itemquantity,itemdate,itemlocation,itemperson)  values(83195467,'Deneme','Mouse-Pad',50,parsedatetime('17-03-2023','dd-MM-yyyy'),'Atakoy','Ahmet Aksoz');
+insert into item(id,itembrand,itemtype,itemquantity,itemdate,itemlocation,itemperson)  values(78493124,'Deneme','Battery',10,parsedatetime('31-12-2022','dd-MM-yyyy'),'Besiktas','Murat Karasakal');
+insert into item(id,itembrand,itemtype,itemquantity,itemdate,itemlocation,itemperson)  values(79031547,'Deneme','Deck-Port',10,parsedatetime('04-11-2022','dd-MM-yyyy'),'Silivri','Arda Sonmez');
+insert into item(id,itembrand,itemtype,itemquantity,itemdate,itemlocation,itemperson)  values(45372346,'Deneme','Printer',3,parsedatetime('09-05-2023','dd-MM-yyyy'),'Beylikduzu','Sinan Kallir');
+insert into item(id,itembrand,itemtype,itemquantity,itemdate,itemlocation,itemperson)  values(31246856,'Deneme','Computer',12,parsedatetime('05-01-2023','dd-MM-yyyy'),'Atakoy','Murat Karasakal');
+insert into item(id,itembrand,itemtype,itemquantity,itemdate,itemlocation,itemperson)  values(49890652,'Deneme','Keyboard',20,parsedatetime('11-04-2023','dd-MM-yyyy'),'Avcilar','Ahmet Aksoz');
+insert into item(id,itembrand,itemtype,itemquantity,itemdate,itemlocation,itemperson)  values(42367021,'Deneme','Webcam',10,parsedatetime('12-04-2023','dd-MM-yyyy'),'Silivri','Faruk Itmez');
+insert into item(id,itembrand,itemtype,itemquantity,itemdate,itemlocation,itemperson) values(45789345,'Deneme','Headset',5,parsedatetime('31-02-2023','dd-MM-yyyy'),'Avcilar','Arda Sonmez');

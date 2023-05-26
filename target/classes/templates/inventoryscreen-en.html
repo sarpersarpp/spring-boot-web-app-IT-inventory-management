@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+<meta charset="UTF-8">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<link rel= "stylesheet" href="css\style.css">
+
+<MARQUEE class="form-style-1-heading"> Lütfen Dilinizi Seçin | Zunge Zeichen | Select Language Please | Langue Marque | Trovi Lango | Lingua Segno
+</MARQUEE>
+              <a href="/main-tr"><img src="http://www.emule-project.net/images/ftr.gif" width="26" height="16"/></a>   
+	          <a><img src="data:image/png;base64,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" width="26" height="16"/></a>    
+                   
+
+<title> IT Inventory System </title>
+
+</head>
+
+
+<body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <div class="form-style-1"> 
+    <div class="form-style-1-heading"> IT Inventory System </div>
+    
+<form action="/send-item-data" method="post" th:object="${items}">
+            <label for="itemBrand"><span>Item Brand <span class="required">*</span></span>
+                <input type="text" class="input-field" name="itemBrand" th:value="${itemBrand}" />
+            </label>
+
+            <label for="itemQuantity"><span>Quantity <span class="required">*</span></span>
+                <input type="text" class="input-field" name="itemQuantity" th:value="${itemQuantity}" />
+            </label>
+
+            <label for="clabel"><span>Item Type <span class="required">*</span></span>
+                <select id="itemType" name="itemType">
+                    <option value="Computer" th:selected="${itemType == 'Computer'}">Computer</option>
+                    <option value="Mouse" th:selected="${itemType == 'Mouse'}">Mouse</option>
+                    <option value="Mouse-Pad" th:selected="${itemType == 'Mouse-Pad'}">Mouse-Pad</option>
+                    <option value="Printer" th:selected="${itemType == 'Printer'}">Printer</option>
+                    <option value="Keyboard" th:selected="${itemType == 'Keyboard'}">Keyboard</option>
+                    <option value="Battery" th:selected="${itemType == 'Battery'}">Battery</option>
+                    <option value="Webcam" th:selected="${itemType == 'Webcam'}">Webcam</option>
+                    <option value="Head-Set" th:selected="${itemType == 'Head-Set'}">Head-Set</option>
+                    <option value="Deck-Port" th:selected="${itemType == 'Deck-Port'}">Deck-Port</option>
+                </select>
+            </label>
+            <label for="id"><span>Serial Number <span class="required">*</span></span>
+                <input type="text" class="input-field" name="id" th:value="${id}"/>
+            </label>
+
+            <label for="itemPerson"><span>User's Name <span class="required">*</span></span>
+                <input type="text" class="input-field" name="itemPerson" th:value="${itemPerson}" />
+            </label>
+
+            <label for="itemLocation"><span>Location</span>
+                <input type="text" class="input-field" name="itemLocation" th:value="${itemLocation}" />
+            </label>
+
+            <label for="itemDate"><span>Given Date <span class="required">*</span></span>
+                <input type="date" max="2023-05-26" class="input-field" name="itemDate" th:value="${itemDate}">
+            </label>
+
+            <div class="form-style-2">
+                <input type="submit" class="btn btn-success" value="Submit" name="submit" />
+                <a href="/itemlist" class="btn btn-success" role="button">Check the Inventory</a>
+            </div>
+        </form>
+       </div>
+
+
+    </div>
+
+
+</body>
+
+
+
+</html>
